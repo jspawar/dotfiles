@@ -1,0 +1,26 @@
+# Taps
+tap 'railwaycat/emacsmacport'
+
+# Core utilities
+brew 'bash'
+brew 'bash-completion'
+brew 'coreutils'
+brew 'curl'
+brew 'docker'
+brew 'git'
+brew 'gnu-sed'
+
+# Languages
+brew 'chruby'
+brew 'go'
+brew 'ruby-install'
+brew 'rust-analyzer'
+
+# Editors
+brew 'railwaycat/emacsmacport/emacs-mac', args: ['with-modules']
+
+# Cask stuff
+cask 'docker'
+cask 'flycut'
+cask 'iterm2'
+cask 'rectangle'

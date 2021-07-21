@@ -1,19 +1,11 @@
 # Taps
-tap 'railwaycat/emacsmacport'
 tap 'romkatv/gitstatus'
 
 # Core utilities
 # TODO: install other azure CLIs too? put this in repo-specific `script/bootstrap`?
 brew 'azcopy'
-brew 'bash'
-brew 'bash-completion'
 brew 'bat'
-brew 'coreutils'
-brew 'curl'
-brew 'docker'
 brew 'fd'
-brew 'git'
-brew 'gnu-sed'
 brew 'htop'
 brew 'jq'
 brew 'k9s'
@@ -23,7 +15,6 @@ brew 'mysql-client@5.7'
 brew 'pstree'
 brew 'ripgrep'
 brew 'romkatv/gitstatus/gitstatus'
-brew 'rust-analyzer'
 brew 'stow'
 brew 'terraform'
 brew 'tldr'
@@ -33,19 +24,7 @@ brew 'watch'
 brew 'z'
 
 # Languages
-brew 'chruby'
-brew 'go'
-brew 'ruby-install'
 brew 'shellcheck'
-
-# Editors
-brew 'railwaycat/emacsmacport/emacs-mac', args: ['with-modules']
 
 # Fonts
 brew 'freetype'
-
-# Cask stuff
-cask 'docker'
-cask 'flycut'
-cask 'iterm2'
-cask 'rectangle'

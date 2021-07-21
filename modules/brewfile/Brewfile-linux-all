@@ -1,0 +1,12 @@
+# Core utilities
+brew 'docker'
+
+# Languages
+brew 'chruby'
+brew 'go'
+brew 'ruby-install'
+brew 'rust-analyzer'
+
+# Cask stuff
+# TODO: how to install docker via Homebrew on Linux?
+# cask 'docker'

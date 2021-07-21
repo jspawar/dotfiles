@@ -1,6 +1,12 @@
 #!/bin/bash
 set -eux
 
+# won't need Rust for Codespaces (yet...)
+if [ -n "${CODESPACES}" ]; then
+    echo "Skip verifying Rust utilities for Codespace cuz won't be using them together (yet)..."
+    exit 0
+fi
+
 # verify Rust is installed at all
 command -v rustup
 command -v rustc

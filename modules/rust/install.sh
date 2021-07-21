@@ -3,6 +3,12 @@ set -eu
 
 echo "Installing Rust and supporting utilities..."
 
+# won't need Rust for Codespaces (yet...)
+if [ -n "${CODESPACES}" ]; then
+    echo "Skip installing Rust utilities for Codespace cuz won't be using them together (yet)..."
+    exit 0
+fi
+
 # TODO: get latest version of Rust
 
 # TODO: if there is no/old version of Rust installed, install or update to latest

@@ -13,7 +13,7 @@ doom upgrade
 
 # clone personal config
 if [ ! -d "${HOME}"/.doom.d ]; then
-    git clone git@github.com:jspawar/doom-emacs-config "${HOME}/.doom.d"
+    git clone https://github.com/jspawar/doom-emacs-config "${HOME}/.doom.d"
 fi
 
 # fetch latest version of personal config

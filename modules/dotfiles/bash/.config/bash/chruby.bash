@@ -1,3 +1,5 @@
-# TODO: use `brew --prefix`?
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
+# chruby should not be configured for Codespaces
+if [ -z "${CODESPACES}" ]; then
+    source "$(brew --prefix)"/share/chruby/chruby.sh
+    source "$(brew --prefix)"/share/chruby/auto.sh
+fi
